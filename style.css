@@ -1,0 +1,191 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote_proejto/fontes/idroid.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(#3CD983, #1A5C38);    
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    
+    font-family: 'Bebas Neue', cursive;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-size: 3em;
+    
+    color: white;
+
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.364);
+    text-transform: uppercase;
+
+    padding: 10px 10px 0px 10px;
+}
+
+header > p {
+    font-size: 1.1em;
+    font-weight: normal;
+
+    color: white;
+    
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.364);
+    
+    padding: 0px 10px 10px 10px;   
+}
+
+nav > a {
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: #f6ff00;
+    background-color: #5d8770;
+    
+    
+}
+
+main {
+    background-color: #f7f7f7;
+    margin: 0px 120px 57px 120px;
+    padding: 5px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+p > a {
+    color: #1A5C38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p > a:hover {
+    background-color: #b2eaca;
+}
+
+section#historia01{
+    padding: 20px;
+}
+
+section#historia01 > h2  {
+    font-family: 'idroid', Times, serif;
+    color: #1A5C38;
+}
+
+section#historia01 > p {
+    text-align: justify;
+    text-indent: 1em;   
+}
+
+article#parte01 > h3  {
+    font-family: 'idroid', Times, serif;
+    color: #1A5C38;
+    background-image: linear-gradient(90deg, #cee5d8, #f7f7f7);
+    padding: 10px;
+}
+
+article#parte01 > p {
+    text-align: justify;
+    text-indent: 1em;
+}
+
+picture {
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+picture > img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+section#video {
+    background-color: #1A5C38;  
+    margin: -5px;  
+}
+
+article#video01 {
+    margin: 0px;
+    padding: 30px;
+}
+
+article#video01 > iframe {
+    height: 315px;
+    width: 100%; 
+    
+}
+
+section#aprender {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-indent: 20px;
+    margin: 10px;
+}
+
+article#aprender01 {
+    background-color: #b2eaca;
+    border-radius: 10px;
+}
+
+article#aprender01 > h3 {
+    background-color: #1A5C38;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article#aprender01 > p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 0px 10px 10px 10px;
+    margin: 0px;
+}
+
+.lista{
+    display: flex;
+    flex-flow: row wrap;
+    }
+
+.lista-50 {
+    width: 50%;
+}
+
+ul {
+    float: inline-end;
+    list-style-type: none;
+    list-style-image: url("pacote_proejto/imagens/check12.png");
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+}
+
+footer > p {
+    margin: 0px;
+}

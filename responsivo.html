@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-be">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pacote_proejto/imagens/vovo.ico" type="image/x-icon">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            
+            /*Para deixar responsivo*/
+            min-width: 280px; /*limita o tamanho mínimo para telas pequenas - celulares*/
+            max-width: 800px; /*limita o tamanho máximo para telas grandes*/
+            margin: auto;
+        }
+        
+        img { /*Deixando a imagen responsiva*/
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique repudiandae ducimus non atque quas beatae! Saepe, assumenda iusto incidunt distinctio culpa deleniti non inventore mollitia explicabo, aperiam sed ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit maxime veniam distinctio in nisi vitae ex dicta, quo quos velit officia doloremque laboriosam est amet beatae consequatur consectetur earum? Suscipit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ipsam fugiat ipsa blanditiis porro odit! Iusto molestias blanditiis at optio amet hic et voluptate vitae minus? Maiores architecto ratione non.</p>
+        <picture>
+            <source media="(max-width: 600px )" srcset="pacote_proejto/imagens/irina-blok-pq.jpg">
+            <img src="pacote_proejto/imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique repudiandae ducimus non atque quas beatae! Saepe, assumenda iusto incidunt distinctio culpa deleniti non inventore mollitia explicabo, aperiam sed ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit maxime veniam distinctio in nisi vitae ex dicta, quo quos velit officia doloremque laboriosam est amet beatae consequatur consectetur earum? Suscipit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, ipsam fugiat ipsa blanditiis porro odit! Iusto molestias blanditiis at optio amet hic et voluptate vitae minus? Maiores architecto ratione non.</p>
+    </main>
+    
+</body>
+</html>
